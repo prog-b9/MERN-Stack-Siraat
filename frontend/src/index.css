@@ -1,0 +1,145 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Almarai', sans-serif;
+  /* direction: rtl; */
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --primary-color: #020530;
+  --gold: #BA8748;
+  --cream: #EDE6D6;
+  --light: #F5F8FA;
+  --red: #ff4d4f;
+  --yellow: #ffc107;
+  --green: #16a34a;
+  --orange: #b45309;
+
+}
+
+body {
+  background-color: var(--light);
+  overflow-x: hidden;
+
+
+}
+
+pre {
+  font-family: 'Almarai', sans-serif;
+
+}
+
+/* sidebar */
+.css-ycdrde>.ps-menu-button:hover {
+  background-color: var(--primary-color) !important;
+}
+
+.css-1682n8t>.ps-menu-button:hover {
+  background-color: var(--primary-color) !important;
+}
+
+.css-17jjxoi>.ps-menu-button:hover {
+  background-color: var(--gold) !important;
+
+}
+
+/* footer */
+.style-footer-media-link {
+  border: 3px solid var(--gold);
+  color: var(--gold);
+}
+
+.style-footer-media-link:hover {
+  border-color: var(--gold);
+  background-color: var(--gold-opacity);
+  color: var(--light);
+
+}
+
+/* .eee + .div{
+  background-color: red !important;
+  position: fixed !important;
+} */
+/* scroll bar design */
+
+/* Add custom scrollbar styles */
+body::-webkit-scrollbar {
+  background-color: #ddd;
+  height: 7px;
+  border-radius: 30px;
+  width: 7px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius: 30px;
+}
+
+.style-scroll {
+  overflow-x: auto;
+  /* Set the width of the scrollbar */
+}
+
+/* Add custom scrollbar styles */
+.style-scroll::-webkit-scrollbar {
+  background-color: #ddd;
+  height: 7px;
+  border-radius: 30px;
+  width: 7px;
+}
+
+.style-scroll::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius: 30px;
+}
+
+/* spacing dashboard */
+.main-navbar {
+  margin-right: 70px;
+}
+
+
+
+.swiper-pagination .swiper-pagination-bullet {
+  background-color: var(--gold);
+}
+
+.swiper-wrapper {
+  transition-timing-function: linear;
+}
+
+.style-shadow {
+  box-shadow: 0 0 40px 0 rgba(3, 3, 3, 0.01);
+  /* box-shadow: 0 0 10px rgba(0, 0, 0,  0.1); */
+  /* box-shadow: 0px 5px 40px rgba(3, 3, 3, 0); */
+  transition: all .3s;
+}
+
+.style-hover-shadow:hover {
+  box-shadow: 0 0 40px 0 rgba(3, 3, 3, 0.09);
+  /* box-shadow: 0 0 10px rgba(0, 0, 0,  0.1); */
+  /* box-shadow: 0px 5px 40px rgba(3, 3, 3, 0); */
+  transition: all .3s;
+}
+
+/* Media */
+@media (max-width:992px) {}
+
+@media (max-width:719.5px) {
+  .main-navbar {
+    margin-right: 0;
+  }
+
+
+}
+
+@media (max-width:576px) {}

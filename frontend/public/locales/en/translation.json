@@ -1,0 +1,194 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "Know Us",
+    "services_solutions": "Services and Solutions",
+    "services": "Services",
+    "contact_us": "Contact Us",
+    "langs": {
+      "title": "Language",
+      "ar": "Arabic",
+      "en": "English"
+    }
+  },
+  "home": {
+    "title": "SIRAAT",
+    "desc": "Our experience puts you in a leadership position to succeed in facing global challenges"
+  },
+  "buttons": {
+    "start_now": "Start Now",
+    "more": "More",
+    "service_request": "Service Request",
+    "send": "Send",
+    "upload_file": "Upload File"
+  },
+  "goals": {
+    "title1": "Our Vision",
+    "desc1": "Our mission is to empower businesses through innovative and strategic information technology solutions. We are committed to providing consulting services.",
+
+    "title2": "Our Mission",
+    "desc2": "Our mission is to empower businesses through innovative and strategic information technology solutions. We are committed to providing consulting services.",
+
+    "title3": "Our Objectives",
+    "desc3": "Our mission is to empower businesses through innovative and strategic information technology solutions. We are committed to providing consulting services."
+  },
+  "about": {
+    "title": "Know Us",
+    "desc": "Sarat is built by a team of industry experts who have decades of experience from government and multinational companies. Sarat offers local products and international investors a smooth path to Saudi Arabia. Sarat was established with the sole purpose of providing an exclusive platform to service companies. Service providers are looking for a professional partner in the Kingdom of Saudi Arabia.",
+    "content": {
+      "title1": "Saratt in Brief",
+      "desc1": "Saratt is built by a team of industry experts with decades of experience from government and multinational corporations. Saratt offers local products and a friendly path for international investors.",
+      "title2": "Birth of Opportunities",
+      "desc2": "Saratt is built by a team of industry experts with years of experience from government and international companies. Saratt offers local products and provides a friendly path for international investors.",
+      "title3": "The Preferred Partner",
+      "desc3": "Saratt is built by a team of industry experts with contracts from various nationalities. Saratt offers local products and is a friendly choice for international investors due to its approach.",
+      "title4": "Passion for Innovation",
+      "desc4": "Saratt is built by individuals passionate about innovation. Saratt offers local products and provides a friendly path for international investors."
+    }
+  },
+  "state": {
+    "title": "Statistics",
+    "desc": "And accurate about quantitative information, contributing to a better understanding and analysis of patterns and trends",
+    "items": {
+      "one": "Our Clients",
+      "two": "Specialized Saudi Team",
+      "three": "Years of Experience in the Field"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "desc": "We offer a comprehensive range of services to help organizations operate more efficiently. Everything from establishing excellence standards to training your employees to work more effectively, and evaluating your performance.",
+    "items": {
+      "title1": "Establishment of Companies and Government Services",
+      "desc1": "Ensuring full compliance with the intricate network of laws and regulations, specializing with a focus on the Kingdom of Saudi Arabia. We have cultivated close relationships with key regulatory authorities, including the Ministry of Investment and the Ministry of Commerce and Industry. Our extensive knowledge also extends to regulated entities in prominent business centers such as Dubai, Abu Dhabi, Oman, and Qatar. We provide tailor-made solutions to meet the unique challenges faced by our clients. Whether navigating the complexities of the business landscape in Saudi Arabia or venturing into other Gulf Cooperation Council countries, we offer professional and compliant company establishment services that lay a solid foundation for international success.",
+      "content1": {
+        "step1": {
+          "title": "Company Establishment",
+          "lists": [
+            "Planning and defining activities",
+            "Choosing the legal structure",
+            "Registration and licenses",
+            "Defining your corporate identity",
+            "Financial matters",
+            "Preparation of legal documents",
+            "Insurance",
+            "Hiring"
+          ]
+        }
+      },
+
+      "title2": "Outsourcing for Residency and Payroll Management",
+      "desc2": "Our comprehensive solutions for employment and human resources in the Kingdom of Saudi Arabia include contract management, simplified recruitment, outsourcing for payroll, transfers, and PEO/EOR services. Through close collaboration with the Ministry of Labor, we ensure compliance with employment regulations. We have expertise in social insurance contributions, guidance from experts, and smooth management. Our strong relationships with banks facilitate seamless processing of Wage Protection System (WPS) batches for labor regulation compliance. Entrusting us with recruitment allows companies' human resource needs to focus on core operations, confident in our ability to handle it.",
+      "content2": {
+        "step1": {
+          "title": "Company Formation",
+          "lists": [
+            "Organizational Structure",
+            "Technology and Infrastructure",
+            "Partnerships",
+            "Promotion and Awareness"
+          ]
+        }
+      },
+
+      "title3": "Candidate Management",
+      "desc3": "Our comprehensive solutions for employment and human resources in the Kingdom of Saudi Arabia include contract management, simplified recruitment, outsourcing for payroll, transfers, and PEO/EOR services. Through close collaboration with the Ministry of Labor, we ensure compliance with employment regulations. We have expertise in social insurance contributions, guidance from experts, and smooth management. Our strong relationships with banks facilitate seamless processing of Wage Protection System (WPS) batches for labor regulation compliance. Entrusting us with recruitment allows companies' human resource needs to focus on core operations, confident in our ability to handle it.",
+      "content3": {
+        "step1": {
+          "title": "Service Branches",
+          "lists": [
+            "Organizational Structure",
+            "Technology and Infrastructure",
+            "Partnerships",
+            "Promotion and Awareness"
+          ]
+        }
+      },
+      "title4": "Accounting and Bookkeeping",
+      "desc4": "Our comprehensive solutions for employment and human resources in the Kingdom of Saudi Arabia include contract management, simplified recruitment, outsourcing for payroll, transfers, and PEO/EOR services. Through close collaboration with the Ministry of Labor, we ensure compliance with employment regulations. We have expertise in social insurance contributions, guidance from experts, and smooth management. Our strong relationships with banks facilitate seamless processing of Wage Protection System (WPS) batches for labor regulation compliance. Entrusting us with recruitment allows companies' human resource needs to focus on core operations, confident in our ability to handle it.",
+      "content4": {
+        "step1": {
+          "title": "Service Branches",
+          "lists": [
+            "Planning and defining activities",
+            "Choosing the legal structure",
+            "Registration and licenses",
+            "Defining your corporate identity",
+            "Financial matters",
+            "Preparation of legal documents",
+            "Insurance",
+            "Hiring"
+          ]
+        }
+      },
+      "title5": "Legal Solutions",
+      "desc5": "Our comprehensive solutions for employment and human resources in the Kingdom of Saudi Arabia include contract management, simplified recruitment, outsourcing for payroll, transfers, and PEO/EOR services. Through close collaboration with the Ministry of Labor, we ensure compliance with employment regulations. We have expertise in social insurance contributions, guidance from experts, and smooth management. Our strong relationships with banks facilitate seamless processing of Wage Protection System (WPS) batches for labor regulation compliance. Entrusting us with recruitment allows companies' human resource needs to focus on core operations, confident in our ability to handle it.",
+      "content5": {
+        "step1": {
+          "title": "Service Branches",
+          "lists": [
+            "Organizational Structure",
+            "Technology and Infrastructure",
+            "Partnerships",
+            "Promotion and Awareness"
+          ]
+        }
+      },
+      "title6": "Joint Work Center",
+      "desc6": "Our comprehensive solutions for employment and human resources in the Kingdom of Saudi Arabia include contract management, simplified recruitment, outsourcing for payroll, transfers, and PEO/EOR services. Through close collaboration with the Ministry of Labor, we ensure compliance with employment regulations. We have expertise in social insurance contributions, guidance from experts, and smooth management. Our strong relationships with banks facilitate seamless processing of Wage Protection System (WPS) batches for labor regulation compliance. Entrusting us with recruitment allows companies' human resource needs to focus on core operations, confident in our ability to handle it.",
+      "content6": {
+        "step1": {
+          "title": "Service Branches",
+          "lists": [
+            "Organizational Structure",
+            "Technology and Infrastructure",
+            "Partnerships",
+            "Promotion and Awareness"
+          ]
+        }
+      },
+      "title7": "Development Center",
+      "desc7": "Our comprehensive solutions for employment and human resources in the Kingdom of Saudi Arabia include contract management, simplified recruitment, outsourcing for payroll, transfers, and PEO/EOR services. Through close collaboration with the Ministry of Labor, we ensure compliance with employment regulations. We have expertise in social insurance contributions, guidance from experts, and smooth management. Our strong relationships with banks facilitate seamless processing of Wage Protection System (WPS) batches for labor regulation compliance. Entrusting us with recruitment allows companies' human resource needs to focus on core operations, confident in our ability to handle it.",
+      "content7": {
+        "step1": {
+          "title": "Service Branches",
+          "lists": [
+            "Organizational Structure",
+            "Technology and Infrastructure",
+            "Partnerships",
+            "Promotion and Awareness"
+          ]
+        }
+      }
+    }
+  },
+  "clints": {
+    "title": "Some Our Clients"
+  },
+  "brands": {
+    "title": "Success Partners"
+  },
+  "contact_us": {
+    "title": "Contact Us",
+    "desc": "For inquiries / issue resolution / suggestions / requesting our services",
+    "card_contact": {
+      "title": "Stay Connected with Us"
+    }
+  },
+  "footer": {
+    "titleMedia": "Follow Us On",
+    "copyRight": "All Rights Reserved ©"
+  },
+  "form": {
+    "title": "Service Request",
+    "desc": "To request one of our services, here is the service request form.",
+    "inputs": {
+      "name": "Name",
+      "phone": "Phone Number",
+      "email": "Email",
+      "message": "Message",
+      "commercial_registration_number": "Commercial Registration Number",
+      "commercial_registration_file": "Commercial Registration File"
+    }
+  }
+}
