@@ -116,14 +116,13 @@ const FooterHome = () => {
       dropdwon: dropdownLanguages(),
     },
   ];
-
+  console.log(i18n.dir());
   return (
     <>
-      {/* <div className="my-5"></div> */}
       <footer
-        className={`bg-gradient-to-${
-          i18n.dir() === "rtl" ? "r" : "l"
-        } from-gold via-primaryColor/80 to-primaryColor p-5  md:p-10 `}
+        className={`${
+          i18n.dir() === "rtl" ? "bg-gradient-to-r" : "bg-gradient-to-l"
+        } from-gold via-primaryColor/80 to-primaryColor p-5  md:pt-10`}
       >
         <div className="container">
           <div className="relative mx-auto w-full   text-white">

@@ -77,7 +77,7 @@ const Services = () => {
               {selectDataServiceDesc}
               <center className="mt-5">
                 <CustomButton
-                  title={"المزيد"}
+                  title={t("buttons.more")}
                   size="lg"
                   bgColor="var(--gold)"
                   path={`/services/view/${selectDataServiceId}`}
