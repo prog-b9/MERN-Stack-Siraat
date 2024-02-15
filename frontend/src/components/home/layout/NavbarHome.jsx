@@ -19,7 +19,13 @@ import {
 import { BiSolidDownArrow } from "react-icons/bi";
 import { useTranslation } from "react-i18next";
 import ServicesData from "../../services/ServicesData";
-
+import {
+  Navbar,
+  Collapse,
+  Typography,
+  IconButton,
+} from "@material-tailwind/react";
+import { IoCloseSharp } from "react-icons/io5";
 const NavbarHome = ({ refs, scrollToSection }) => {
   const location = useLocation();
   const { dataServices } = ServicesData();
@@ -104,30 +110,30 @@ const NavbarHome = ({ refs, scrollToSection }) => {
       isLink: true,
     },
     {
-      title: t("navbar.contact_us"),
-      path: "/contact-us",
-      isLink: true,
-    },
-    {
       title: t("navbar.services"),
       path: null,
       isLink: false,
       dropdwon: dropdownServices(),
     },
+    {
+      title: t("navbar.contact_us"),
+      path: "/contact-us",
+      isLink: true,
+    },
   ];
 
-  const [open, setOpen] = useState(false);
-  const onClose = () => {
-    setOpen(false);
-  };
+  const [openNav, setOpenNav] = useState(false);
 
-  const [language, setLanguage] = useState("ar");
-  const handleLanguage = () => {
-    setLanguage(language === "ar" ? "en" : "ar");
-    i18n.changeLanguage(language);
-  };
+  const handleWindowResize = () =>
+    window.innerWidth >= 960 && setOpenNav(false);
 
-  console.log(language);
+  useEffect(() => {
+    window.addEventListener("resize", handleWindowResize);
+
+    return () => {
+      window.removeEventListener("resize", handleWindowResize);
+    };
+  }, []);
   return (
     <header className="bg-white">
       <div className="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
@@ -203,21 +209,57 @@ const NavbarHome = ({ refs, scrollToSection }) => {
               className="border border-gray-100  rounded-full"
               style={{ color: "var(--primary-color)" }}
             >
-              <Hamburger toggled={open} toggle={setOpen} size={24} />
+              <Hamburger
+                toggled={openNav}
+                toggle={() => setOpenNav(!openNav)}
+                size={24}
+              />
             </div>
           </div>
         </div>
       </div>
 
-      <Drawer
-        open={open}
-        onClose={onClose}
-        placement="right"
-        size={230}
-        className="style-scroll bg-red-200"
-      >
-        <SidebarHome refs={refs} scrollToSection={scrollToSection} />
-      </Drawer>
+      <Navbar className="p-0 m-0">
+        <Collapse open={openNav}>
+          <ul className="p-5 my-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+            {headerItem.map((item, i) =>
+              item.isLink ? (
+                <li
+                  className="m-2 block text-gray-600 transition hover:text-gray-900 cursor-pointer select-none"
+                  key={i}
+                >
+                  {item.isLink ? (
+                    <Link to={item.path}>{item.title}</Link>
+                  ) : (
+                    <div onClick={item.path} type="button">
+                      {item.title}
+                    </div>
+                  )}
+                </li>
+              ) : (
+                <Menu key={i} placement="bottom-start">
+                  <MenuHandler>
+                    <li className="m-2 flex items-center gap-1    text-gray-600 transition hover:text-gray-900 cursor-pointer select-none ">
+                      <span>{item.title}</span>
+                      <BiSolidDownArrow size={12} />
+                    </li>
+                  </MenuHandler>
+                  {item.dropdwon}
+                </Menu>
+              )
+            )}
+            <Menu placement="bottom-start">
+              <MenuHandler>
+                <li className="m-2 flex items-center gap-1 text-base  text-gray-600 transition hover:text-gray-900 cursor-pointer select-none ">
+                  <span>{t("navbar.langs.title")}</span>
+                  <BiSolidDownArrow size={12} />
+                </li>
+              </MenuHandler>
+              {dropdownLanguages()}
+            </Menu>
+          </ul>
+        </Collapse>
+      </Navbar>
     </header>
   );
 };

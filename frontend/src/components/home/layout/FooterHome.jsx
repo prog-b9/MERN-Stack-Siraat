@@ -116,7 +116,6 @@ const FooterHome = () => {
       dropdwon: dropdownLanguages(),
     },
   ];
-  console.log(i18n.dir());
   return (
     <>
       <footer

@@ -1,4 +1,10 @@
-import services01 from "../../assets/services-01.png";
+import iconServices01 from "../../assets/icon-services-01.png";
+import iconServices02 from "../../assets/icon-services-02.png";
+import iconServices03 from "../../assets/icon-services-03.png";
+import iconServices04 from "../../assets/icon-services-04.png";
+import iconServices05 from "../../assets/icon-services-05.png";
+import iconServices06 from "../../assets/icon-services-06.png";
+import iconServices07 from "../../assets/icon-services-07.png";
 import services02 from "../../assets/img-services-01.jpg";
 import services03 from "../../assets/img-services-02.jpg";
 import services04 from "../../assets/img-services-03.jpg";
@@ -9,7 +15,7 @@ const ServicesData = () => {
   const dataServices = [
     {
       img: "https://readymadeui.com/team-image.webp",
-      icon: services01,
+      icon: iconServices01,
       title: t("services.items.title1"),
       desc: t("services.items.desc1"),
       content: {
@@ -23,7 +29,7 @@ const ServicesData = () => {
     },
     {
       img: services02,
-      icon: services01,
+      icon: iconServices02,
       title: t("services.items.title2"),
       desc: t("services.items.desc2"),
       content: {
@@ -37,7 +43,7 @@ const ServicesData = () => {
     },
     {
       img: services03,
-      icon: services01,
+      icon: iconServices03,
       title: t("services.items.title3"),
       desc: t("services.items.desc3"),
       content: {
@@ -51,7 +57,7 @@ const ServicesData = () => {
     },
     {
       img: services04,
-      icon: services01,
+      icon: iconServices04,
       title: t("services.items.title4"),
       desc: t("services.items.desc4"),
       content: {
@@ -65,7 +71,7 @@ const ServicesData = () => {
     },
     {
       img: services05,
-      icon: services01,
+      icon: iconServices05,
       title: t("services.items.title5"),
       desc: t("services.items.desc5"),
       content: {
@@ -79,7 +85,7 @@ const ServicesData = () => {
     },
     {
       img: services05,
-      icon: services01,
+      icon: iconServices06,
       title: t("services.items.title6"),
       desc: t("services.items.desc6"),
       content: {
@@ -93,7 +99,7 @@ const ServicesData = () => {
     },
     {
       img: services02,
-      icon: services01,
+      icon: iconServices07,
       title: t("services.items.title7"),
       desc: t("services.items.desc7"),
       content: {

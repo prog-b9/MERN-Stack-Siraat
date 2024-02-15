@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import { useTranslation } from "react-i18next";
 import CustomButton from "./CustomButton";
 import {
   Dialog,
@@ -20,11 +21,17 @@ const CustomModal = ({
   loading,
   classNameContent,
 }) => {
+  const { i18n } = useTranslation();
+
   return (
     <Dialog open={openModal} handler={setOpenModal} className="relative">
       <DialogHeader className="flex justify-between flex-wrap">
         <div className="text-base md:text-xl">{title}</div>
-        <div className="absolute top-3 left-3">
+        <div
+          className={`absolute top-3 ${
+            i18n.dir() === "rtl" ? "left-3" : "right-3"
+          } `}
+        >
           <IconButton
             color="blue-gray"
             size="sm"

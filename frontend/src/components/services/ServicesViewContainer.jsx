@@ -14,8 +14,9 @@ import CustomTitleHome from "../utility/CustomTitleHome";
 import CustomButton from "../utility/CustomButton";
 import ServicesData from "./ServicesData";
 import { useTranslation } from "react-i18next";
-
+ 
 const ServicesViewContainer = () => {
+ 
   const { dataServices } = ServicesData();
   const { t } = useTranslation();
 
@@ -38,7 +39,7 @@ const ServicesViewContainer = () => {
       <div className="container my-14">
         <div className="grid md:grid-cols-2 gap-5">
           <div className="md:text-right max-md:mt-12 h-full ">
-            <img src={data.img} alt="" className="object-contain"/>
+            <img src={data.img} alt="" className="object-contain" />
           </div>
           <div className=" flex items-start justify-center flex-col order-2">
             <h3 className="text-base sm:text-lg font-semibold leading-normal">
@@ -52,7 +53,7 @@ const ServicesViewContainer = () => {
       </div>
       {/* section one */}
       <div className="container my-14">
-         <CustomTitleHome title={data.content.step1.title} />
+        <CustomTitleHome title={data.content.step1.title} />
         <div className="  flex items-center justify-center flex-wrap gap-5 mt-7 w-full md:w-9/12 mx-auto">
           {data.content.step1.lists.map((item, i) => (
             <div key={i} className="flex items-center gap-2">
