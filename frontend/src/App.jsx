@@ -6,7 +6,7 @@ import NavbarHome from "./components/home/layout/NavbarHome";
 import FooterHome from "./components/home/layout/FooterHome";
 import AboutPage from "./pages/about/AboutPage";
 import ServicesPage from "./pages/services/ServicesPage";
-// import FormPage from "./pages/Form/FormPage";
+import FormPage from "./pages/Form/FormPage";
 import ServicesViewPage from "./pages/services/ServicesViewPage";
 import ContactUsPage from "./pages/contactUs/ContactUsPage";
 
@@ -43,10 +43,10 @@ function App() {
       path: "/services/view/:id",
       component: <ServicesViewPage />,
     },
-    // {
-    //   path: "/form",
-    //   component: <FormPage />,
-    // },
+    {
+      path: "/form",
+      component: <FormPage />,
+    },
     {
       path: "/contact-us",
       component: <ContactUsPage />,

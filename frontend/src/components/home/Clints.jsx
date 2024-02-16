@@ -1,61 +1,81 @@
 import { Link } from "react-router-dom";
 import CustomTitleHome from "../utility/CustomTitleHome";
 import { useTranslation } from "react-i18next";
+import imgBarnds01 from "../../assets/logo.png";
+import imgBarnds02 from "../../assets/brands-01.png";
+import imgBarnds03 from "../../assets/brands-02.png";
+import imgBarnds04 from "../../assets/brands-03.png";
 
 const Clints = () => {
   const { t } = useTranslation();
 
   const dataClints = [
     {
-      img: "../../src/assets/logo.png",
+      img: imgBarnds01,
       link: "https://kbs.sa/our-clients-ar",
     },
     {
-      img: "../../src/assets/brands-01.png",
+      img: imgBarnds02,
       link: "https://kbs.sa/our-clients-ar",
     },
     {
-      img: "../../src/assets/brands-03.png",
+      img: imgBarnds03,
       link: "https://kbs.sa/our-clients-ar",
     },
     {
-      img: "../../src/assets/brands-02.png",
+      img: imgBarnds04,
       link: "https://kbs.sa/our-clients-ar",
     },
     {
-      img: "../../src/assets/logo.png",
+      img: imgBarnds01,
       link: "https://kbs.sa/our-clients-ar",
     },
     {
-      img: "../../src/assets/brands-01.png",
+      img: imgBarnds02,
       link: "https://kbs.sa/our-clients-ar",
     },
     {
-      img: "../../src/assets/logo.png",
+      img: imgBarnds04,
       link: "https://kbs.sa/our-clients-ar",
     },
     {
-      img: "../../src/assets/brands-02.png",
+      img: imgBarnds03,
       link: "https://kbs.sa/our-clients-ar",
     },
     {
-      img: "../../src/assets/brands-03.png",
+      img: imgBarnds04,
       link: "https://kbs.sa/our-clients-ar",
     },
     {
-      img: "../../src/assets/logo.png",
+      img: imgBarnds03,
       link: "https://kbs.sa/our-clients-ar",
     },
     {
-      img: "../../src/assets/brands-02.png",
+      img: imgBarnds02,
       link: "https://kbs.sa/our-clients-ar",
     },
     {
-      img: "../../src/assets/brands-03.png",
+      img: imgBarnds03,
       link: "https://kbs.sa/our-clients-ar",
     },
     {
-      img: "../../src/assets/brands-01.png",
+      img: imgBarnds01,
+      link: "https://kbs.sa/our-clients-ar",
+    },
+    {
+      img: imgBarnds02,
+      link: "https://kbs.sa/our-clients-ar",
+    },
+    {
+      img: imgBarnds04,
+      link: "https://kbs.sa/our-clients-ar",
+    },
+    {
+      img: imgBarnds01,
+      link: "https://kbs.sa/our-clients-ar",
+    },
+    {
+      img: imgBarnds04,
       link: "https://kbs.sa/our-clients-ar",
     },
   ];
