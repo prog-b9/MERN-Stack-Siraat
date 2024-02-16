@@ -6,10 +6,9 @@ import NavbarHome from "./components/home/layout/NavbarHome";
 import FooterHome from "./components/home/layout/FooterHome";
 import AboutPage from "./pages/about/AboutPage";
 import ServicesPage from "./pages/services/ServicesPage";
-import FormPage from "./pages/Form/FormPage";
 import ServicesViewPage from "./pages/services/ServicesViewPage";
 import ContactUsPage from "./pages/contactUs/ContactUsPage";
-
+import FormPage from "./pages/form/FormPage";
 function App() {
   // for sceoll header
   const refAbout = useRef(null);
