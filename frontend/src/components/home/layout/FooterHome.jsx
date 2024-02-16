@@ -23,12 +23,12 @@ const FooterHome = () => {
   const dataLanguages = [
     {
       title: t("navbar.langs.ar"),
-      flag: <img src={imgLangAr} className="w-5" />,
+      flag: imgLangAr,
       code: "ar",
     },
     {
       title: t("navbar.langs.en"),
-      flag: <img src={imgLangEn} className="w-5" />,
+      flag: imgLangEn,
       code: "en",
     },
   ];
@@ -59,7 +59,9 @@ const FooterHome = () => {
               onClick={() => handleChangeLanguage(item.code)}
             >
               <div>{item.title}</div>
-              <div>{item.flag}</div>
+              <div>
+                <img src={item.flag} className="w-5" />
+              </div>
             </MenuItem>
           </div>
         ))}
